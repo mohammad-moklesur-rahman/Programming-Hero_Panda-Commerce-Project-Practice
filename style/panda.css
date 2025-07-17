@@ -109,3 +109,54 @@ nav li a:hover{
     background-color: #17202a;
     color: #FFBF00;
 }
+
+/* Responsive sidebar area for Mobile menu */
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: #6c3483;
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.sidebar li{
+    width: 100%;
+}
+
+.sidebar a{
+    width: 100%;
+}
+
+.menu-button{
+    display: none;
+}
+
+/* Responsive for Mobile Devices */
+
+@media screen and (max-width: 400px) {
+    .sidebar{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    /* Header navbar area responsive */
+    .hideOnMobile{
+        display: none;
+    }
+
+    .menu-button{
+        display: block;
+    }
+
+    .search-area{
+        display: none;
+    }
+}
