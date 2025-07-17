@@ -159,4 +159,44 @@ nav li a:hover{
     .search-area{
         display: none;
     }
+
+    .logo img{
+        padding-left: 25px;
+    }
+}
+
+/* Responsive for Tablet Devices */
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+
+    /* Header navbar area responsive */
+    .hideOnMobile{
+        display: none;
+    }
+
+    .menu-button{
+        display: block;
+    }
+
+    .search-area{
+        display: block;
+    }
+
+    .logo img{
+        padding-left: 25px;
+    }
+}
+
+/* Responsive for Large Devices */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    /* Header navbar area responsive */
+    .search-area{
+        display: none;
+    }
+
+    .logo img{
+        padding-left: 25px;
+    }
 }
