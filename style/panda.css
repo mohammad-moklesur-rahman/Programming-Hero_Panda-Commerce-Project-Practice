@@ -216,6 +216,28 @@ nav li a:hover{
     .logo img{
         padding-left: 25px;
     }
+
+    /* Banner Section responsive */
+
+    .banner{
+        flex-direction: column-reverse;
+        margin: 0;
+        align-items: center;
+    }
+
+    .banner-title{
+        margin-top: 20px;
+        font-size: 2rem;
+    }
+
+    .banner-description{
+        text-align: justify;
+    }
+
+    .banner-img img{
+        max-width: 300px;
+    }
+
 }
 
 /* Responsive for Tablet Devices */
@@ -238,6 +260,23 @@ nav li a:hover{
     .logo img{
         padding-left: 25px;
     }
+
+    /* Banner Section responsive */
+
+    .banner{
+        flex-direction: column-reverse;
+        margin: 0;
+        align-items: center;
+    }
+
+    .banner-title{
+        margin-top: 20px;
+        font-size: 2rem;
+    }
+
+    .banner-description{
+        text-align: justify;
+    }
 }
 
 /* Responsive for Large Devices */
@@ -251,5 +290,20 @@ nav li a:hover{
 
     .logo img{
         padding-left: 25px;
+    }
+
+    /* Banner Section responsive */
+
+    .banner-title{
+        font-size: 2rem;
+    }
+
+    .banner-description{
+        text-align: justify;
+    }
+
+    .banner-img img{
+        max-width: 320px;
+        margin-left: 30px;
     }
 }
