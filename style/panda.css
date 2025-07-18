@@ -11,7 +11,7 @@
 /* Common styles */
 
 .common-width{
-    max-width: 1212px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -40,8 +40,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1140px;
-    margin: 0 auto;
 }
 
 /* Logo styles */
@@ -148,6 +146,8 @@ nav li a:hover{
     margin-top: 63px;
     margin-bottom: 64px;
     padding: 39px 46px;
+    max-width: 1212px;
+    border-radius: 20px;
 }
 
 .banner-content{
@@ -189,6 +189,52 @@ nav li a:hover{
 .banner-img img{
     max-width: 402px;
 }
+
+/* Categories section styles */
+
+.categories-title{
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #1F1F1F;
+    margin-bottom: 24px;
+}
+
+.categories-products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 26px;
+}
+
+.categories-common{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    border-radius: 10px;
+    padding: 15px 45px;
+    margin-bottom: 52px;
+    color: #FFFFFF;
+}
+
+.categories-common img{
+    max-width: 97px;
+}
+
+.categories-watch{
+    background: linear-gradient(#FF9C35, #FFD019);
+}
+
+.categories-bag{
+    background: linear-gradient(#FF589B, #FF136F);
+}
+
+.categories-shoes{
+    background: linear-gradient(#4289FF, #3F07F8);
+}
+
+
+
+
 
 /* Responsive for Mobile Devices */
 
