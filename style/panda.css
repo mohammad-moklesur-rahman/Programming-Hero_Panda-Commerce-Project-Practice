@@ -40,6 +40,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 /* Logo styles */
@@ -135,6 +137,57 @@ nav li a:hover{
 
 .menu-button{
     display: none;
+}
+
+/* Banner area styles */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FEEAE9;
+    margin-top: 63px;
+    margin-bottom: 64px;
+    padding: 39px 46px;
+}
+
+.banner-content{
+    max-width: 560px;
+}
+
+.banner-title{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1F1F1F;
+    margin-top: 64px;
+}
+
+.banner-description{
+    font-size: 1rem;
+    color: #4E4E4E;
+    margin-bottom: 15px;
+}
+
+.price{
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #FF136F;
+}
+
+.banner-btn{
+    display: block;
+    background: linear-gradient(#FF589B, #FF136F);
+    padding: 15px 28px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.banner-img img{
+    max-width: 402px;
 }
 
 /* Responsive for Mobile Devices */
