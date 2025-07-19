@@ -232,6 +232,78 @@ nav li a:hover{
     background: linear-gradient(#4289FF, #3F07F8);
 }
 
+/* Products shoes area styles */
+
+.all-products{
+    background-color: #F4F4F4;
+}
+
+.products-categories-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px 15px 0px;
+}
+
+.products-categories-title h2{
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #1F1F1F;
+}
+
+.products-categories-title a{
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: #FF9D00;
+    text-decoration: none;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.products-styles{
+    background-color: #FFFFFF;
+    padding: 24px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.products-styles img{
+    max-width: 290px;
+    margin-bottom: 22px;
+}
+
+.product-title{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #1F1F1F;
+}
+
+.product-description{
+    font-size: 1rem;
+    color: #4E4E4E;
+    text-align: justify;
+    margin: 16px;
+}
+
+.product-price{
+    display: block;
+    font-size: 1.3rem;
+    color: #000000;
+}
+
+.btn{
+    background-color: #000000;
+    padding: 15px 28px;
+    border: none;
+    border-radius: 6px;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+
 
 
 
