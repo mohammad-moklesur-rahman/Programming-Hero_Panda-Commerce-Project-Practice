@@ -368,7 +368,6 @@ nav li a:hover{
 
 
 
-
 /* Responsive for Mobile Devices */
 
 @media screen and (max-width: 400px) {
@@ -450,6 +449,16 @@ nav li a:hover{
         max-width: 200px;
     }
 
+    /* Footer area Responsive */
+
+    .footer{
+        border-radius: 0px;
+    }
+
+    .footer-area input{
+        width: 200px;
+    }
+
 }
 
 /* Responsive for Tablet Devices */
@@ -523,6 +532,16 @@ nav li a:hover{
     .products-styles img{
         max-width: 200px;
     }
+
+    /* Footer area Responsive */
+
+    .footer{
+        border-radius: 0px;
+    }
+
+    .footer-area input{
+        width: auto;
+    }
 }
 
 /* Responsive for Large Devices */
@@ -586,5 +605,15 @@ nav li a:hover{
 
     .products-categories-title{
         margin: auto 30px;
+    }
+
+    /* Footer area Responsive */
+
+    .footer{
+        border-radius: 0px;
+    }
+
+    .footer-area input{
+        width: auto;
     }
 }
