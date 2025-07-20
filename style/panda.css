@@ -304,6 +304,67 @@ nav li a:hover{
     margin-top: 16px;
 }
 
+/* Footer area styles */
+
+.footer{
+    background-color: #FFF2F1;
+    max-width: 1212px;
+    margin: 70px auto;
+    border-radius: 20px;
+}
+
+.footer-area{
+    text-align: center;
+    padding: 147px 0px;
+}
+
+.footer-title{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #1F1F1F;
+}
+
+.footer-description{
+    font-size: 1rem;
+    color: #707070;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.footer-area input{
+    width: 526px;
+    padding: 12px 0px 12px 20px;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+    font-size: 24px;
+    color: #4E4E4E;
+}
+
+.footer-area input::placeholder{
+    color: #CCCCCC;
+}
+
+.footer-area input:focus{
+    outline-color: #cdcdcd;
+}
+
+.footer-btn{
+    background: linear-gradient(#FF589B, #FF136F);
+    padding: 12px 30px;
+    font-size: 24px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    position: relative;
+    left: -5px;
+}
+
+.copyRight{
+    display: block;
+    margin-top: 30px;
+    color: #4E4E4E;
+    font-size: 0.8rem;
+}
 
 
 
